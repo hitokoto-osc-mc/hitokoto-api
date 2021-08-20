@@ -2492,21 +2492,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"NeteaseCloudMusicApi@npm:4.0.17":
-  version: 4.0.17
-  resolution: "NeteaseCloudMusicApi@npm:4.0.17"
+"NeteaseCloudMusicApi@npm:4.0.20":
+  version: 4.0.20
+  resolution: "NeteaseCloudMusicApi@npm:4.0.20"
   dependencies:
     axios: ^0.21.1
     express: ^4.17.1
     express-fileupload: ^1.1.9
     md5: ^2.3.0
     music-metadata: ^7.5.3
-    pac-proxy-agent: ^4.0.0
+    pac-proxy-agent: ^5.0.0
     qrcode: ^1.4.4
     tunnel: ^0.0.6
   bin:
     NeteaseCloudMusicApi: app.js
-  checksum: bc3e43ed9071b0651256528fb04c2095784b8fc5cd5603f847e888e772af8ab8ed60e71b4dfadc2a9ab6c2d94e69a01ef9ba73cac18fa634a4e8f59d3c85b3b7
+  checksum: 003158027a9d99c87123cb123af17f0d5009099ebfdc9eb1facbb1cbeb2793ad6f902a2b6cceaf58e0a29947466ce12ed78f9407f01b527e97ea994903d5f0de
   languageName: node
   linkType: hard
 
@@ -4330,14 +4330,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"degenerator@npm:^2.2.0":
-  version: 2.2.0
-  resolution: "degenerator@npm:2.2.0"
+"degenerator@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "degenerator@npm:3.0.1"
   dependencies:
     ast-types: ^0.13.2
     escodegen: ^1.8.1
     esprima: ^4.0.0
-  checksum: db1b659de5f4fa41477d9924c37bdfc7deb976f1efaa88e83f8a98e60cc4938251207c1d0edf87c9955284dce67877a18b48c7ce2e853a7b3874d0f77ea14c47
+    vm2: ^3.9.3
+  checksum: 504e7bb4091d05268d0476e77d143d3e6e523c9c2eead4a5103020703adc7454df9d58e8d4e770059bcde218bedc68c7cb01ab3ef3413065e32efea2c2f6cecc
   languageName: node
   linkType: hard
 
@@ -6159,7 +6160,7 @@ fsevents@^2.3.2:
     "@sentry/node": 6.10.0
     "@sentry/tracing": 6.10.0
     "@types/jest": 26.0.24
-    NeteaseCloudMusicApi: 4.0.17
+    NeteaseCloudMusicApi: 4.0.20
     async: 3.2.0
     bytes: 3.1.0
     chalk: 4.1.1
@@ -9546,9 +9547,9 @@ fsevents@^2.3.2:
   languageName: node
   linkType: hard
 
-"pac-proxy-agent@npm:^4.0.0":
-  version: 4.1.0
-  resolution: "pac-proxy-agent@npm:4.1.0"
+"pac-proxy-agent@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "pac-proxy-agent@npm:5.0.0"
   dependencies:
     "@tootallnate/once": 1
     agent-base: 6
@@ -9556,21 +9557,21 @@ fsevents@^2.3.2:
     get-uri: 3
     http-proxy-agent: ^4.0.1
     https-proxy-agent: 5
-    pac-resolver: ^4.1.0
+    pac-resolver: ^5.0.0
     raw-body: ^2.2.0
     socks-proxy-agent: 5
-  checksum: 64187016cb2276a09bdbfa28d97c4720385a5ca66322390a61bf2d8aecc5ccc2f0b6b399f72b1664c2e7ebcefb36e547a6dfab1d0a0af26ba1565a69c8a638c2
+  checksum: 040f50a8aca70aff5089c77edd779dd4559faf5e1dbe06442273b2cad4bc8a6640584e52e5504b7e5a1dafeda4f2f003ea533109541507c46a6bdb92b2574449
   languageName: node
   linkType: hard
 
-"pac-resolver@npm:^4.1.0":
-  version: 4.2.0
-  resolution: "pac-resolver@npm:4.2.0"
+"pac-resolver@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "pac-resolver@npm:5.0.0"
   dependencies:
-    degenerator: ^2.2.0
+    degenerator: ^3.0.1
     ip: ^1.1.5
     netmask: ^2.0.1
-  checksum: 43e26b0e6120f18211bb20ff6e9e986fc6ad400dc4ee7c60ffb935fed3e6b787c9579fb90b27dea8f20d5ccd60f56137abece93d89ad2b07694611fe1e810856
+  checksum: 09352e4d68fccbbc8e0bff966569b351a2861917d63bc9bc8f9332ce018f297d406b8ad75ad3786b0eab60334aa9984f0c52ba2c97ac076a048a1fc5826aa83e
   languageName: node
   linkType: hard
 
@@ -12222,6 +12223,15 @@ fsevents@^2.3.2:
   version: 1.1.2
   resolution: "vary@npm:1.1.2"
   checksum: 591f059f727ac1ba0d97cb7767f8583a03fcbb07db7be2b7dce838ede520ec0e958a41cb19077054769077fdc49a9b9a2dc391c83426bfee89c054b8cc7404bf
+  languageName: node
+  linkType: hard
+
+"vm2@npm:^3.9.3":
+  version: 3.9.3
+  resolution: "vm2@npm:3.9.3"
+  bin:
+    vm2: bin/vm2
+  checksum: 2bd3204247a9c3766a0b87bccf8cee780f1f1547c6e461047724a05296c7ae991706122b638d305676f360d4d14bda12e330de5e31f37d7ecfa139fbdf2123e7
   languageName: node
   linkType: hard
 
