@@ -13,7 +13,7 @@ redis: # 配置 Redis
 sentences_ab_switcher: # 本节是服务 AB 异步更新的配置，如果您不知道这个是什么意思，请保持默认
   a: 1 # a 状态对应的 redis 数据库
   b: 2 # b 状态对应的 redis 数据库
-remote_sentences_url: https://cdn.jsdelivr.net/gh/hitokoto-osc/sentences-bundle@latest/ # 语句库地址，通常默认即可。如果您想使用您自己打包部署的语句库，您可以修改此项
+remote_sentences_url: https://cdn.jsdelivr.net/gh/hitokoto-osc-mc/sentences-bundle@latest/ # 语句库地址，通常默认即可。如果您想使用您自己打包部署的语句库，您可以修改此项
 workers: 0 # 启动 Worker 数目。0 表示启动和 CPU 核心数相同数量的 Worker
 extensions: # 控制扩展
   netease: true # 网易云音乐接口
@@ -25,8 +25,8 @@ requests:
     - api.a632079.me
     - api.hitokoto.cn
     - sslapi.hitokoto.cn
-telemetry: # 遥测服务
-  performance: true # 性能监控
-  error: true # 错误报告
-  usage: true # 使用报告
+telemetry: # 遥测服务，因为是克隆，建议禁用
+  performance: false # 性能监控
+  error: false # 错误报告
+  usage: false # 使用报告
   debug: false # 是否启用调试模式（该模式会让遥测服务打印调试信息）
